@@ -4,6 +4,9 @@ import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
 
+import edu.neu.csye6205.finalProject.Paurush.Edge;
+import edu.neu.csye6205.finalProject.Paurush.Node;
+
 public class PrimAlgorithm {
 
     public static CustomGraph findMinimumSpanningTree(CustomGraph graph) {
@@ -21,15 +24,21 @@ public class PrimAlgorithm {
         PriorityQueue<Edge> priorityQueue = new PriorityQueue<>(graph.getEdges().size(),
                 (a, b) -> Double.compare(a.getEdgeWeight(), b.getEdgeWeight()));
 
-        // Add all the edges connected to the first node to the priority queue
-        for (Edge edge : graph.getEdges()) {
-            if (edge.getA().equals(visitedNodes.iterator().next()) || edge.getB().equals(visitedNodes.iterator().next())) {
-                priorityQueue.offer(edge);
-            }
-        }
+    
 
         // Iterate until all nodes have been visited
-      
+        while (visitedNodes.size() < graph.getNodes().size()) {
+            // Get the edge with the smallest weight from the priority queue
+            Edge smallestEdge = priorityQueue.poll();
+
+            // Check if either endpoint of the edge has already been visited
+            Node endpointA = smallestEdge.getA();
+            Node endpointB = smallestEdge.getB();
+
+            if (visitedNodes.contains(endpointA) && visitedNodes.contains(endpointB)) {
+                continue;
+            }
+        }
 
         return minimumSpanningTree;
     }
