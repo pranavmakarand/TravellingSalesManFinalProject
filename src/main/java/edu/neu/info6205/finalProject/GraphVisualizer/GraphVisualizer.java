@@ -12,12 +12,15 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JPanel;
 
-import edu.neu.csye6205.finalProject.Paurush.CustomGraph;
-import edu.neu.csye6205.finalProject.Paurush.Edge;
-import edu.neu.csye6205.finalProject.Paurush.Node;
+import edu.neu.info6205.finalProject.core.CustomGraph;
+import edu.neu.info6205.finalProject.core.Edge;
+import edu.neu.info6205.finalProject.core.Node;
+
+
 
 public class GraphVisualizer extends JPanel {
-    private CustomGraph graph;
+    private static final long serialVersionUID = 1L;
+	private CustomGraph graph;
     private List<Node> nodes;
     private List<Edge> edges;
     private int pointRadius = 10;

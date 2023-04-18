@@ -3,8 +3,10 @@ package edu.neu.info6205.finalProject.tactical;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.neu.csye6205.finalProject.Paurush.Node;
-import edu.neu.csye6205.finalProject.Paurush.util.Distance;
+import edu.neu.info6205.finalProject.core.Node;
+import edu.neu.info6205.finalProject.util.Distance;
+
+
 
 public class optimization3opt {
 	public static List<Node> threeOpt(List<Node> route) {

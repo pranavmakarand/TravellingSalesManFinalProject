@@ -12,9 +12,12 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-import edu.neu.csye6205.finalProject.Paurush.Edge;
-import edu.neu.csye6205.finalProject.Paurush.CustomGraph;
-import edu.neu.csye6205.finalProject.Paurush.Node;
+
+import edu.neu.info6205.finalProject.core.CustomGraph;
+import edu.neu.info6205.finalProject.core.Edge;
+import edu.neu.info6205.finalProject.core.Node;
+
+
 
 
 

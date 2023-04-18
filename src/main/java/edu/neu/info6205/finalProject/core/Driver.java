@@ -16,13 +16,15 @@ import javax.swing.JFrame;
 
 import org.jgrapht.alg.util.Pair;
 
-
-import edu.neu.csye6205.finalProject.Paurush.GeneticAlgorithm.GeneticAlgorithm;
-import edu.neu.csye6205.finalProject.Paurush.GraphVisualizer.GraphVisualizer;
-import edu.neu.csye6205.finalProject.Paurush.SimulatedAnnealing.SA2opt;
-import edu.neu.csye6205.finalProject.Paurush.SimulatedAnnealing.SA3opt;
-import edu.neu.csye6205.finalProject.Paurush.SimulatedAnnealing.SimulatedAnnealingOptimization;
-import edu.neu.csye6205.finalProject.Paurush.util.*;
+import edu.neu.info6205.finalProject.GeneticAlgorithm.GeneticAlgorithm;
+import edu.neu.info6205.finalProject.GraphVisualizer.GraphVisualizer;
+import edu.neu.info6205.finalProject.SimulatedAnnealing.SA2opt;
+import edu.neu.info6205.finalProject.SimulatedAnnealing.SA3opt;
+import edu.neu.info6205.finalProject.SimulatedAnnealing.SimulatedAnnealingOptimization;
+import edu.neu.info6205.finalProject.util.Distance;
+import edu.neu.info6205.finalProject.util.Fetch;
+import edu.neu.info6205.finalProject.util.NodeGraph;
+import edu.neu.info6205.finalProject.util.Nodes;
 
 
 public class Driver {

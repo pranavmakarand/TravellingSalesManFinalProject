@@ -16,7 +16,9 @@ import org.jfree.chart.plot.XYPlot;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
-import edu.neu.csye6205.finalProject.Paurush.Node;
+import edu.neu.info6205.finalProject.core.Node;
+
+
 
 public class NodeGraph {
 	public static void plot(List<Node> nodes) {
