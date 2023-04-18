@@ -3,7 +3,9 @@ package edu.neu.info6205.finalProject.util;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.neu.info6205.finalProject.Node;
+import edu.neu.info6205.finalProject.core.Node;
+
+
 
 
 

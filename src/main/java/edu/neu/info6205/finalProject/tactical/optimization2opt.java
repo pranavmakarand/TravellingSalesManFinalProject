@@ -2,8 +2,9 @@ package edu.neu.info6205.finalProject.tactical;
 import java.util.Collections;
 import java.util.List;
 
-import edu.neu.csye6205.finalProject.Paurush.Node;
-import edu.neu.csye6205.finalProject.Paurush.util.Distance;
+import edu.neu.info6205.finalProject.core.Node;
+import edu.neu.info6205.finalProject.util.Distance;
+
 public class optimization2opt {
 	public static List<Node> twoOpt(List<Node> tour) {
 	    int size = tour.size();

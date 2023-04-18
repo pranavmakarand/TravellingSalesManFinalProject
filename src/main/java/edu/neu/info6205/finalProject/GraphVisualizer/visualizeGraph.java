@@ -7,9 +7,11 @@ import java.util.concurrent.TimeUnit;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import edu.neu.csye6205.finalProject.Paurush.CustomGraph;
-import edu.neu.csye6205.finalProject.Paurush.Edge;
-import edu.neu.csye6205.finalProject.Paurush.Node;
+import edu.neu.info6205.finalProject.core.CustomGraph;
+import edu.neu.info6205.finalProject.core.Edge;
+import edu.neu.info6205.finalProject.core.Node;
+
+
 
 public class visualizeGraph {
 	public static void visualizeGraphDrawer(CustomGraph graph, List<Node> nodes) throws InterruptedException {
