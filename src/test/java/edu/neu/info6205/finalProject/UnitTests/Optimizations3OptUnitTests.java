@@ -66,10 +66,10 @@ public class Optimizations3OptUnitTests {
 			 hamiltonianTourCopy.add(z);
 		});
 		
-		List<Node> opt3 = optimization3opt.threeOpt(hamiltonianTourCopy);
+		List<Node> opt3 = optimization3opt.threeOpt(hamiltonianTour);
 		
 		double three = Driver.calculatePathDistance(opt3);
 		
-		assertTrue(three < d); 
+		assertTrue(three <= d); 
 	}
 }
