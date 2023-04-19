@@ -1,8 +1,8 @@
 # TravellingSalesManFinalProject
 ## Member Details 
-1. *Paurush Batish - 002755631*
-2. *Pranav Kapoor: 002998253*
-3. *Pranav Dhongade: 002707573*
+1. **Paurush Batish: 002755631**
+2. **Pranav Kapoor: 002998253**
+3. **Pranav Dhongade: 002707573**
 
 ## Steps to run the project -->
 1. Clone the project
